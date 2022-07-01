@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+    <script type="module" src="./app.js"></script>
+</head>
+ <body>
+    <app-product
+        title="Nike Zoom 2021"
+        collection="Running Collection"
+        price="$2.500"
+        img= "./img/nike-blue.png"
+    >
+        <span slot="description">
+            The Nike Zoom 21 is a running shoe that features a lightweight, flexible upper with a cushioned midsole and a heel cup.
+        </span>
+    </app-product>
+</body>
+</html>
